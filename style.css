@@ -1,0 +1,19 @@
+button {
+    display: block;
+    margin : 5em auto;
+    background-color: #2DAEC6;
+    border: 4px solid grey;
+    border-radius: 100%;
+    padding: 3.5em 1em;
+    font-size: 2em;
+    font-family: 'Roboto', Verdana, Arial;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    outline: none;
+}
+
+button:hover {
+    background-color: pink;
+    color: white;
+  }
