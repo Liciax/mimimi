@@ -1,6 +1,4 @@
-var sayMimimi = function(idPlayer) {
+function sayMimimi(idPlayer) {
     var player = document.querySelector('#' + idPlayer);
     player.play();
 }
-
-exports.sayMimimi = sayMimimi;
